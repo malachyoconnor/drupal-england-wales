@@ -1,0 +1,150 @@
+.cover_image > img{
+  width: 100%;
+  color: white;
+}
+
+.l_header {
+  width: fit-content;
+  margin: auto;
+}
+
+.description {
+  display: inline-block;
+  margin-right: 0.5rem
+}
+
+.form-checkbox {
+  margin: auto;
+}
+
+.image_border {
+  display: flex;
+  width: 100%;
+  height: 43px;
+  display: inline-block;
+  line-height: 40px;
+  background-color: #0154a1;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 20% 0 20%;
+}
+
+.image_border > p {
+  float: left;
+}
+
+.image_border > .docs_button {
+  height: 100%;
+  float: right;
+  background-color: #fd9827;
+  cursor: pointer;
+}
+
+.image_border > .docs_button:hover {
+  background-color: #ef7f02;
+}
+
+.docs_button > a {
+  text-decoration: none!important;
+  color: white;
+  display: block;
+  height: 100%;
+  padding: 0 10px 0 15px;
+}
+
+.zoocha_page_content {
+  padding: 40px;
+  margin-bottom: 80px;
+  background-color: #F9F9F9;
+}
+
+.zoocha_page_content > div {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1em;
+  text-align: center;
+  font-size: 24px;
+}
+
+.zoocha_page_content:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 30px #F9F9F9;
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.zoocha_page_content > div > p {
+  line-height: 133%;
+}
+
+.btn > a{
+  display: inline-block;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #FD9827;
+  text-decoration: none;
+  -webkit-transition: background-color .35s;
+  transition: background-color .35s;
+  font-family: "Avenir LT W01_85 Heavy1475544",sans-serif;
+  text-decoration: none!important;
+}
+
+.menu.m-main {
+  background-color: #363636;
+  list-style-type: none;
+  width: 100%;
+  display: table;
+}
+
+.m-main > li:first-child > a > img {
+  max-width: 21px;
+  margin: 16px;
+}
+
+.m-main > li {
+  display: table-cell;
+}
+
+.m-main > li:last-child::before {
+  color: white;
+  content: "Contribute: ";
+  margin-left: 50px;
+}
+
+.m-main > li:last-child > a {
+  margin-left: 5px;
+  width: min-content;
+  background-color: #0154a1;
+  color: white;
+}
+
+.webform-submission-dew-membership-form {
+  width: min-content;
+  padding: 10px 0 10px 0;
+  margin: 15px auto 20px auto;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0 0 30px #ccc;
+  border-radius: 1rem;
+  border-top: 10px solid rgb(158, 158, 158);
+}
+
+.webform-submission-dew-membership-form  .form-text,
+.webform-submission-dew-membership-form .form-email {
+  max-width: 80%;
+  transition: linear 0.2s;
+  text-align: center;
+}
+
+.webform-submission-dew-membership-form  .form-text:focus,
+.webform-submission-dew-membership-form .form-email:focus {
+  border-radius: 1rem;
+}

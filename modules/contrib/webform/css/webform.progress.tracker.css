@@ -1,0 +1,65 @@
+/**
+ * @file
+ * Progress tracker styles.
+ *
+ * @see http://nigelotoole.github.io/progress-tracker/
+ */
+
+/**
+ * Update progress text to show completed and active.
+ */
+.webform-progress-tracker .progress-step .progress-text {
+  padding-top: 5px;
+  padding-bottom: 0;
+  color: #656565;
+}
+
+.webform-progress-tracker .progress-step .progress-marker::after {
+  background-color: #656565;
+}
+
+.webform-progress-tracker .progress-step.is-active .progress-text {
+  color: #333;
+}
+
+.webform-progress-tracker .progress-step.is-active .progress-title {
+  font-weight: bold;
+}
+
+.webform-progress-tracker .progress-step.is-complete .progress-text {
+  color: #333;
+}
+
+/**
+ * Disable hover state because webform wizard progress markers are not clickable.
+ */
+.webform-progress-tracker .progress-step:not(.is-active) .progress-marker::before,
+.webform-progress-tracker .progress-step:hover .progress-marker::before {
+  background-color: #656565;
+}
+
+.webform-progress-tracker .progress-step.is-complete:hover .progress-marker::before {
+  background-color: #1976f2;
+}
+
+.webform-progress-tracker .progress-step.is-active:hover .progress-marker::before {
+  background-color: #2196f3;
+}
+
+/**
+ * Make progress text smaller for tablets.
+ */
+@media screen and (max-width: 800px) {
+  .webform-progress-tracker .progress-text {
+    font-size: smaller;
+  }
+}
+
+/**
+ * Hide progress text smaller for mobile.
+ */
+@media screen and (max-width: 600px) {
+  .webform-progress-tracker .progress-text {
+    display: none;
+  }
+}

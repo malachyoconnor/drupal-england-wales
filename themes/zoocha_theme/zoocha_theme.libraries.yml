@@ -1,0 +1,8 @@
+global-styling:
+  version: VERSION
+  css:
+    component:
+      assets/css/footer.css: {}
+      assets/css/zoocha-basic-page.css: {}
+    theme:
+      assets/css/style.css: {}
